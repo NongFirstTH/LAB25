@@ -63,6 +63,7 @@ void List::append(int d){
 	size++;
 }
 
+
 void List::remove(int idx){
 	size--;
 	if(idx == 0){

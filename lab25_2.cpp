@@ -37,7 +37,7 @@ int main(){
 	loc = find(line_up.begin(),line_up.end(),"Bob");
 	line_up.insert(loc,"Tony");
 	line_up.remove("Bob");
-
+	
 	line_up.pop_front();
 	line_up.pop_front();
 	line_up.pop_front();
